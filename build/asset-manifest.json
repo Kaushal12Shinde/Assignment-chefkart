@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7ccfaa57.css",
+    "main.js": "/static/js/main.c882c81b.js",
+    "static/js/787.66a4299e.chunk.js": "/static/js/787.66a4299e.chunk.js",
+    "static/media/pngtree-herbal-ingredients-transparent-image-png-image_3206949-removebg-preview.png": "/static/media/pngtree-herbal-ingredients-transparent-image-png-image_3206949-removebg-preview.a6c2f884dae7dbb21ea7.png",
+    "static/media/Mask Group 17.png": "/static/media/Mask Group 17.e8e3d56399db53e412f7.png",
+    "static/media/Mask Group 19.png": "/static/media/Mask Group 19.f502f58275ccdfb13cd0.png",
+    "static/media/Select_date-01.svg": "/static/media/Select_date-01.b2792fe557e685da6d5c8588c8c45583.svg",
+    "index.html": "/index.html",
+    "static/media/Group 1541.svg": "/static/media/Group 1541.860a0a2a09c54812ca54d639792815e6.svg",
+    "static/media/Path 786.svg": "/static/media/Path 786.edb89b5e60ff7ebc3f1deb03a7a81826.svg",
+    "main.7ccfaa57.css.map": "/static/css/main.7ccfaa57.css.map",
+    "main.c882c81b.js.map": "/static/js/main.c882c81b.js.map",
+    "787.66a4299e.chunk.js.map": "/static/js/787.66a4299e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ccfaa57.css",
+    "static/js/main.c882c81b.js"
+  ]
+}
