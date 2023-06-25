@@ -1,0 +1,246 @@
+.notificationBar{
+    width: 360px;
+    height: 24px;
+}
+.flexi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pos{
+    position: absolute;
+}
+.notificationBar p{
+    font-size: 10px;
+}
+.leftArrow{
+    cursor: pointer;
+    text-decoration: none;
+    color: #1C1C1C;
+    top: 48px;
+    left: 16px;
+    width: 5px;
+    height: 11px;
+}
+.backCircle{
+  
+    top: 53px;
+    left: 189px;
+    width: 171px;
+    height: 192px;
+    border-radius: 50%;
+    background-color: #fff9f2;
+    opacity: 1;
+}
+.ImgRight{
+
+    top: 81px;
+    left: 273px;
+    width: 215px;
+    height: 215px;
+    /* background: transparent url('img/pngtree-herbal-ingredients-transparent-image-png-image_3206949-removebg-preview.png') 0% 0% no-repeat padding-box; */
+    opacity: 1;
+}
+.ImgMid{
+    top: 140px;
+    left: 180px;
+    width: 321px;
+    height: 130px;
+    /* background: transparent url('img/Mask Group 17.png') 0% 0% no-repeat padding-box; */
+    opacity: 1;
+}
+.dishName{
+    top: 86px;
+    left: 24px;
+    width: 187px;
+    height: 32px;
+    text-align: left;
+    font-size: 23px;
+    font-weight: 800;
+    color: #242424;
+    opacity: 1;
+}
+.dishDetails{
+    top: 122px;
+    left: 24px;
+    width: 182px;
+    height: 39px;
+    font-size: 8px;
+    text-align: left;
+    letter-spacing: 0.16px;
+    color: #A3A3A3;
+    opacity: 1;
+}
+.dishRating{
+    top: 102px;
+    left: 219px;
+    width: 22px;
+    height: 10px;
+    background: #51C452 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 1;
+    font-size: 6px;
+    color: #ffffff;
+    text-align: center;
+}
+.watch{
+    top: 188px;
+    left: 24px;
+    width: 12px;
+    height: 12px;
+    /* background: transparent url('img/Group 393.png') 0% 0% no-repeat padding-box; */
+    opacity: 1;
+}
+.timeReq{
+    top: 187px;
+    left: 44px;
+    width: 31px;
+    height: 14px;
+    text-align: left;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #1C1C1C;
+    opacity: 1;
+}
+.borLine{
+    top: 232px;
+    left: 0px;
+    width: 192px;
+    height: 3px;
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.Ingred{
+    top: 257px;
+    left: 24px;
+    width: 93px;
+    height: 22px;
+    text-align: left;
+    /* font: normal normal bold 16px/22px Open Sans; */
+    letter-spacing: 0.16px;
+    color: #1C1C1C;
+    opacity: 1;
+    font-size: 16px;
+}
+.quantity{
+    top: 283px;
+    left: 24px;
+    width: 47px;
+    height: 11px;
+    text-align: left;
+    font-size: 8px;
+    /* font: normal normal normal 8px/17px Open Sans; */
+    letter-spacing: 0px;
+    color: #8A8A8A;
+    opacity: 1;
+}
+.borLine2{
+    top: 310px;
+    left: 24px;
+    width: 304px;
+    height: 0px;
+    border: 0.5px solid #D6D6D6CE;
+    opacity: 1;
+}
+.mainVege{
+    top: 326px;
+    left: 24px;
+    width: 312px;
+    height: 314px;
+    overflow: auto;
+}
+.mainVege::-webkit-scrollbar{
+    display: none;
+}
+.veg{
+    width: 90px;
+    height: 17px;
+    font-size: 12px;
+    text-align: left;
+    font-weight: bold;
+    /* font: normal normal bold 12px/17px Open Sans; */
+    letter-spacing: 0px;
+    color: #242424;
+    opacity: 1;
+    display: inline-block;
+}
+.DropArrow{
+    width: 7px;
+    height: 3px;
+    color: #1C1C1C;
+    opacity: 1;
+    display: inline-block;
+    margin-left: 10px;
+}
+.listIngred{
+    margin-top: 10px;
+}
+.item{
+    justify-content: space-between;
+    font-size: 10px;
+    height: 14px;
+    width: 312px;
+    margin-bottom: 8px;
+}
+.spices{
+    margin-top: 24px;
+    width: 62px;
+    height: 12px;
+    font-size: 12px;
+    text-align: left;
+    font-weight: bold;
+    /* font: normal normal bold 12px/17px Open Sans; */
+    letter-spacing: 0px;
+    color: #242424;
+    opacity: 1;
+    display: inline-block;
+}
+.listSpices{
+    margin-top: 10px;
+}
+.itemSpice{
+    justify-content: space-between;
+    font-size: 10px;
+    height: 14px;
+    width: 312px;
+    margin-bottom: 8px;
+}
+.Appliances{
+    margin-top: 24px;
+    width: 62px;
+    height: 12px;
+    font-size: 12px;
+    text-align: left;
+    font-weight: bold;
+    /* font: normal normal bold 12px/17px Open Sans; */
+    letter-spacing: 0px;
+    color: #242424;
+    opacity: 1;
+    display: inline-block;
+}
+.list{
+    width: 312px;
+    height: 95px;
+    margin-top: 10px;
+    justify-content: flex-start;
+    overflow: auto;
+}
+.listAppliance{
+    margin-right: 21px;
+    width: 72px;
+    height: 95px;
+    background-color: #F5F5F5;
+    border-radius: 7px;
+    opacity: 1;
+}
+.itemAppliance{
+    flex-direction: column;
+    padding: 14px;
+}
+.ApplianceName{
+    font-size: 8px;
+}
+.list::-webkit-scrollbar{
+    display: none;
+}

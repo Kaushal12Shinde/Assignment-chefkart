@@ -1,0 +1,220 @@
+.mainContainer{
+    position: absolute;
+    top: 364px;
+    width: 307px;
+    height: 276px;
+    left: 23px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+.mainContainer::-webkit-scrollbar
+{
+    display: none;
+}
+.pos{
+    position: absolute;
+}
+.recommend{
+    width:307px;
+    height: 22px;
+    position: relative;
+}
+.recom{
+    width: 121px;
+    height: 22px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.16px;
+    color: #1C1C1C;
+}
+.DropArrow{
+    width: 7px;
+    height: 3px;
+    top: 10px;
+    left:131.21px;
+}
+.menu{
+    width: 56px;
+    height: 22px;
+    left: 251px;
+    color: #FFFFFF;
+    font-size: 8px;
+    text-align: center;
+    padding-top:5px;
+    background-color: #1C1C1C;
+    box-shadow: 0px 3px 4px #00000029;
+    border-radius: 6px;
+    opacity: 1;
+}
+.foodContainer{
+    width: 307px;
+    height: 95px;
+    position: relative;
+    margin-top: 20px;
+}
+.foodBox{
+    width: 156px;
+    height: 73px;
+    position: relative;
+}
+.foodName{
+    width: 83px;
+    height: 17px;
+    color: #1C1C1C;
+    font-size: 11px;
+    margin-bottom: 0;
+    font-weight: 600;
+    display: inline-block;
+}
+.Stamp{
+    width: 8px;
+    height: 8px;
+    top: 5px;
+    left: 89px;
+    display: inline-block;
+}
+.Ratings{
+    width: 22px;
+    height: 10px;
+    left:107px;
+    top:5px;
+    padding-left: 4px;
+    font-size: 6px;
+    color: #FFFFFF;
+    background-color: #51C452;
+    border-radius: 2px;
+    opacity: 1;
+}
+.Star{
+    margin-left:2px;
+}
+
+.Fridge{
+    width: 7px;
+    height: 12px;
+    top:24.55px;
+    left:8px;
+}
+.AplName{
+    font-size: 4px;
+    letter-spacing: 0.08px;
+    color: #1C1C1C;
+    top:38px;
+}
+.Fridge2{
+    width: 7px;
+    height: 12px;
+    top:24.55px;
+    left:39.5px;
+}
+.AplName2{
+    font-size: 4px;
+    letter-spacing: 0.08px;
+    color: #1C1C1C;
+    top:38px;
+    left: 31.5px;
+}
+.line{
+    width: 0px;
+    height: 18px;
+    /* UI Properties */
+    border: 0.5px solid #D6D6D6CE;
+    opacity: 1;
+    top:25px;
+    left: 69px;
+}
+.Ingredients{
+    width: 35px;
+    height: 8px;
+    font-size: 7px;
+    font-weight: bold;
+    letter-spacing: 0.12px;
+    color: #1C1C1C;
+    top: 26px;
+    left: 84.5px;
+}
+.list{
+    width: 35px;
+    height: 9px;
+    font-size: 7px;
+    letter-spacing: 0.1px;
+    color: #FF8800;
+    font-weight: bold;
+    top: 30px;
+    left: 84.5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.details{
+    width: 156px;
+    height: 22px;
+    font-size: 8px;
+    letter-spacing: 0.16px;
+    color: #707070;
+    top:51px
+}
+.Dish{
+    width: 92px;
+    height: 73px;
+    left: 214px;
+}
+.Add{
+    width: 58px;
+    height: 21px;
+    font-size: 11px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 1px;
+    color: #FF8800;
+    /* UI Properties */
+    background-color:#FFFFFF;
+    box-shadow: 0px 3px 4px #00000029;
+    border: 0.5px solid #FF9A26;
+    border-radius: 3px;
+    left: 232px; 
+    top:63px;
+}
+.sign{
+    width: 4px;
+    height: 11px;
+    font-size: 8px;
+    color: #FF8800;
+    top:1px;
+    left:45px;
+}
+.line2{
+    width: 307px;
+    height: 0px;
+    /* UI Properties */
+    border: 0.5px solid #D6D6D6CE;
+    top: 95px;
+}
+.cart{
+    width: 239px;
+    height: 40px;
+    position: fixed;
+    top: 550px;
+    left: 61px;
+    background-color: #1C1C1C;
+    box-shadow: 0px 3px 9px #00000017;
+    border-radius: 7px;
+    opacity: 1;
+    justify-content: space-around;
+}
+.Tick{
+    color:#FFFFFF;
+}
+.SelectedQuantity{
+    width: 125px;
+    height: 17px;
+    font-size: 12px;
+    /* UI Properties */
+    text-align: left;
+    /* font: normal normal 600 12px/17px Open Sans; */
+    letter-spacing: 0.12px;
+    color: #FFFFFF;
+}
+.aro{
+    color: white;
+}

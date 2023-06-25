@@ -1,0 +1,180 @@
+.flexi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pos{
+    position: absolute;
+}
+.globalTime{
+    width: 360px;
+    height: 24px;
+    font-size: 10px;
+}
+.innerBox{
+    width: 360px;
+    height: 57px;
+    position: relative;
+}
+.Selection{
+    width: 131px;
+    height: 22px;
+    position: absolute;
+    left: 16px;
+    top: 18px;
+}
+.Selection LeftNav{
+    width: 5px;
+    height: 11px;
+    margin-top: 6px;
+    margin-bottom: 5.31px;
+}
+.Selection h4{
+    margin-left: 24.66px;
+    margin-bottom: 0;
+    width: 101px;
+    height: 22px;
+    font-size: 16px;
+    color: #1C1C1C;
+    opacity: 1;
+    font-weight: 600;
+}
+
+.blackBox{
+    width: 360px;
+    height: 42px;
+    background-color: #1C1C1C;
+    position: relative;
+}
+
+.calenderBox{
+    width: 314px;
+    height: 63px;
+    position: absolute;
+    top : 21px;
+    left: 23px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 4px #D6D6D69E;
+    border-radius: 9px;
+    opacity: 1;
+    padding: 22px 18.7px 15px 19.98px;
+}
+
+.calinnerBox{
+    width: 275.32px;
+    height: 26px;
+    position: relative;
+}
+
+.calen{
+    width: 16px;
+    height: 16px;
+    top:26px;
+    left:19.98px;
+}
+.date{
+    width: 74px;
+    height: 17px;
+    top: 26px;
+    left:44.31px;
+    font-size:  12px;
+    font-weight: bold;
+    letter-spacing: 0.12px;
+    color: #1C1C1C;
+}
+.hline{
+    width: 0px;
+    height: 26px;
+    /* UI Properties */
+    border: 0.5px solid #D6D6D6CE;
+    top:22px;
+    left:138.15px;
+}
+.time{
+    width: 112px;
+    height: 17px;
+    /* UI Properties */
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.12px;
+    color: #1C1C1C;
+    top: 26px;
+    left: 168.3px;
+}
+.cusine{
+    height: 26px;
+    width: 337px;
+    margin-top: 62px;
+    margin-left: 25px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.cusine::-webkit-scrollbar {
+   display:none; /* Set the width of the scrollbar */
+  }
+
+.inline-button{
+    width: 76px;
+    height: 23px;
+    background-color: #FFFFFF;
+    border: 0.5px solid #BDBDBD;
+    border-radius: 17px;
+    opacity: 1;
+    text-align: center;
+    margin-right: 16px;
+    display: inline-block;
+    font-size: 12px;
+    color: #8A8A8A;
+}
+
+.active{
+    background: #FFF9F2 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #FFF9F2;
+    border: 0.5px solid #FF941A;
+    color: #FF941A;
+}
+
+.DishesContainer{
+    width: 360px;
+    height: 112px;
+    margin-top: 21px;
+    border-bottom: 3px solid #F2F2F2;
+}
+.DishesContainer p{
+    height: 19px;
+    font-size: 14px;
+    color: #1C1C1C;
+    font-weight: bold;
+    padding-left: 23px;
+   
+}
+.dish{
+    width: 335px;
+    height: 63px;
+    margin-left: 25px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.plates{
+    width:57px;
+    height: 57px;
+    margin-right: 8px;
+    border-radius: 50%;
+    padding-top: 17px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #000000;
+    background-image: url(https://img.freepik.com/free-photo/top-view-delicious-corn-dog_23-2149387975.jpg);
+    background-size:cover;
+    background-position: top;
+    mix-blend-mode:multiply;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+}
+.dish::-webkit-scrollbar {
+    display:none;
+}
+
