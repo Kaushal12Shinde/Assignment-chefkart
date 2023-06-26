@@ -2,6 +2,8 @@
 
     Web application designed for a viewport of vw-360px and vh-640px. It integrates with an API to fetch data, and the API key is securely stored in a `.env.local` file.
 
+## Click to Open - https://assignment-chefkart-kaushalshinde.netlify.app/
+
 ## Assignment Description: 
     Creating Main Page and Ingridient Page Fully Responsive.
     
